@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void getViews() {
-        bsignUp = findViewById(R.id.bsignUp);
+        bsignUp = findViewById(R.id.btn_signUp);
         bsingIn = findViewById(R.id.bsignIn);
 
     }
