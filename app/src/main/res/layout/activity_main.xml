@@ -4,6 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".MainActivity">
-    
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logo"
+        app:layout_constraintBottom_toTopOf="@+id/bsignUp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bsignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="signUp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <Button
+        android:id="@+id/bsignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="signIn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bsignUp"
+        app:layout_constraintVertical_bias="0.085"
+        tools:layout_editor_absoluteX="-16dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
