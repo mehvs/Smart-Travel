@@ -8,7 +8,12 @@
     android:padding="10dp"
     tools:context=".MainActivity">
 
+<<<<<<< HEAD
     <ImageView
+=======
+
+    <TextView
+>>>>>>> ae04e4657cf3a58ffe7112454ed9ce2384db35b0
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
@@ -55,5 +60,8 @@
         app:layout_constraintVertical_bias="0.085"
         tools:layout_editor_absoluteX="-16dp" />
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ae04e4657cf3a58ffe7112454ed9ce2384db35b0
 </androidx.constraintlayout.widget.ConstraintLayout>
