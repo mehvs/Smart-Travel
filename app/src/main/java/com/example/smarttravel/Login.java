@@ -11,8 +11,8 @@ public class Login extends AppCompatActivity {
     private static final String VALID_EMAIL = "xtsekooov@gmail.com";
     private static final String VALID_PASSWORD = "1914";
 
-    private EditText edtUsername;
-    private EditText edtPassword;
+    private EditText etEmail;
+    private EditText etPassword;
     private Button btnLogin;
 
     @Override
@@ -24,8 +24,8 @@ public class Login extends AppCompatActivity {
     }
 
     private void getViews() {
-        edtUsername = findViewById(R.id.edtUsername);
-        edtPassword = findViewById(R.id.edtPassword);
+        etEmail = findViewById(R.id.etEmail);
+        etPassword = findViewById(R.id.edtPassword);
         btnLogin = findViewById(R.id.btnLogin);
     }
 }
