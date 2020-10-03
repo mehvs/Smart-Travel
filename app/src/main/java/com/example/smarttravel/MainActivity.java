@@ -34,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
             Intent registration = new Intent(this, Registration.class);
             startActivity(registration);
         });
+
+        bsingIn.setOnClickListener(v -> {
+            Intent login = new Intent(this, Login.class);
+            startActivity(login);
+        });
     }
 
 }
