@@ -17,6 +17,7 @@
         app:layout_constraintTop_toBottomOf="@+id/bsignIn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
     <ImageView
         android:id="@+id/img_logo"
         android:layout_width="348dp"

@@ -2,6 +2,7 @@ package com.example.smarttravel;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
@@ -61,5 +62,10 @@ public class Registration extends AppCompatActivity implements View.OnClickListe
 
         LoginManager loginManager = new LoginManager();
         loginManager.register(email, pass, this);
+
+        bRegister.setOnClickListener(v -> {
+            Intent login = new Intent(this, Login.class);
+            startActivity(login);
+        });
     }
 }
